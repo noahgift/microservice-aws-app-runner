@@ -12,7 +12,7 @@ LOG.setLevel(logging.INFO)
 
 @app.route("/")
 def home():
-    html = f"<h3>Hi I am Flask.  I come to conquer</h3>"
+    html = f"<h3>Hi I am Flask.  I come to conquer-via Continuous Delivery</h3>"
     return html.format(format)
 
 @app.route('/hi/<name>')
